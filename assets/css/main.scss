@@ -207,6 +207,45 @@
     color: #7a8490;
 }
 
+html[data-lang="en"] .lang-zh {
+    display: none;
+}
+
+html[data-lang="zh"] .lang-en {
+    display: none;
+}
+
+.lang-toggle-btn {
+    border: 1px solid rgba(31, 75, 110, 0.2);
+    border-radius: 999px;
+    padding: 0.25rem 0.75rem;
+    background: #ffffff;
+    color: #1f4b6e;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.lang-toggle-btn:hover {
+    border-color: rgba(31, 75, 110, 0.5);
+}
+
+.lang-toggle-link {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
+    margin-left: 0.5rem;
+    background: #ffffff;
+    color: #1f4b6e;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.lang-toggle-link:hover {
+    border-color: rgba(31, 75, 110, 0.2);
+    background: #f7f9fb;
+}
+
 .places-map {
     width: 100%;
     height: 360px;
@@ -219,6 +258,97 @@
     .places-map {
         height: 280px;
     }
+}
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 1em;
+}
+
+.news-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.news-left {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-dots {
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px dotted rgba(31, 75, 110, 0.25);
+    margin: 0 10px;
+}
+
+.news-right {
+    white-space: nowrap;
+    color: #7a8490;
+}
+
+@media (max-width: 600px) {
+    .news-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
+
+    .news-dots {
+        display: none;
+    }
+
+    .news-right {
+        margin-left: 0;
+    }
+}
+
+.pub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0.5rem;
+}
+
+.pub-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(31, 75, 110, 0.12);
+}
+
+.pub-title {
+    font-family: $header-font-family;
+    font-size: 1.05em;
+    color: #1d2a33;
+    margin-bottom: 0.2em;
+}
+
+.pub-authors {
+    font-size: 0.95em;
+    color: #5b6470;
+}
+
+.pub-venue {
+    font-size: 0.9em;
+    color: #7a8490;
+}
+
+.pub-links {
+    font-size: 0.9em;
+}
+
+.pub-links a {
+    color: #1f4b6e;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(31, 75, 110, 0.2);
+}
+
+.pub-links a:hover {
+    border-bottom-color: rgba(31, 75, 110, 0.6);
 }
 
 @include breakpoint(max-width $medium) {

@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jinghang Li"
-description              : "Research Assistant in FAST Lab Zhejiang University"
+description              : ""
 repository               : "jinghangli/jinghangli.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,10 +22,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jinghang Li"
+  name_zh          : "李景行"
   avatar           : "assets/img/profile/avatar.jpg"
-  bio              : "Zhejiang University"
-  location         : "Hangzhou, China"
-  employer         :
+  bio              : "Ph.D. Student, HNU"
+  bio_zh           : "博士研究生，湖南大学"
+  employer         : "Research Intern, DJI Automotive"
+  employer_zh      : "大疆车载研究实习生"
+  location         : "Shenzhen, China"
+  location_zh      : "深圳，中国"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=csfnTk4AAAAJ"
   email            : "jhanglee.ro@gmail.com"

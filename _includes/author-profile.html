@@ -9,8 +9,16 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name">
+      <span class="lang-en">{{ author.name }}</span>
+      {% if author.name_zh %}<span class="lang-zh">{{ author.name_zh }}</span>{% endif %}
+    </h3>
+    {% if author.bio or author.bio_zh %}
+      <p class="author__bio">
+        {% if author.bio %}<span class="lang-en">{{ author.bio }}</span>{% endif %}
+        {% if author.bio_zh %}<span class="lang-zh">{{ author.bio_zh }}</span>{% endif %}
+      </p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -19,11 +27,17 @@
       {% if site.description %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
       {% endif %}
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% if author.employer or author.employer_zh %}
+        <li>
+          {% if author.employer %}<span class="lang-en">{{ author.employer }}</span>{% endif %}
+          {% if author.employer_zh %}<span class="lang-zh">{{ author.employer_zh }}</span>{% endif %}
+        </li>
       {% endif %}
-      {% if author.employer %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+      {% if author.location or author.location_zh %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+          {% if author.location %}<span class="lang-en">{{ author.location }}</span>{% endif %}
+          {% if author.location_zh %}<span class="lang-zh">{{ author.location_zh }}</span>{% endif %}
+        </li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
