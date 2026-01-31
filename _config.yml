@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jinghang Li"
   name_zh          : "李景行"
-  avatar           : "assets/img/profile/avatar.jpg"
+  avatar           : "/assets/img/profile/avatar.jpg"
   bio              : "Ph.D. Student, HNU"
   bio_zh           : "博士研究生，湖南大学"
   employer         : "Research Intern, DJI Automotive"
