@@ -1,0 +1,36 @@
+- name: "Milan, Italy"
+  lat: 45.46427
+  lng: 9.18951
+- name: "Turin, Italy"
+  lat: 45.07049
+  lng: 7.68682
+- name: "Auckland, New Zealand"
+  lat: -36.84853
+  lng: 174.76349
+- name: "Vienna, Austria"
+  lat: 48.2085
+  lng: 16.3721
+- name: "Bratislava, Slovakia"
+  lat: 48.1482
+  lng: 17.1067
+- name: "Chongqing, China"
+  lat: 29.5628
+  lng: 106.553
+- name: "Chengdu, China"
+  lat: 30.6667
+  lng: 104.067
+- name: "Wuhan, China"
+  lat: 30.5833
+  lng: 114.267
+- name: "Changsha, China"
+  lat: 28.1987
+  lng: 112.971
+- name: "Shenzhen, China"
+  lat: 22.5455
+  lng: 114.068
+- name: "Hong Kong"
+  lat: 22.2783
+  lng: 114.175
+- name: "Macau"
+  lat: 22.1667
+  lng: 113.55

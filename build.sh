@@ -12,4 +12,4 @@ Path("_data/last_update.yml").write_text(f"raw: {raw}\ndisplay: {display}\n")
 PY
 
 HOME="$PWD/.home" GEM_HOME="$PWD/vendor/bundler" GEM_PATH="$PWD/vendor/bundler" \
-  "$PWD/vendor/bundler/bin/bundle" _2.2.19_ exec jekyll liveserve
+  "$PWD/vendor/bundler/bin/bundle" _2.2.19_ exec jekyll build

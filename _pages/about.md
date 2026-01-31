@@ -19,81 +19,79 @@ redirect_from:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=csfnTk4AAAAJ'>google scholar citations <strong><span id='total_cit'>...</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=csfnTk4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<ul class="timeline">
+  <li>
+    <span class="timeline-date">2022.02</span>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="timeline-content">🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.</div>
+  </li>
+  <li>
+    <span class="timeline-date">2022.02</span>
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <div class="timeline-content">🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.</div>
+  </li>
+</ul>
 
 # 📝 Publications 
 
-<hr class="uk-divider-small">
-
-### 2022
-
-<div class='paper-box'><div class='paper-box-image'><img src='images/dido.gif' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><img src='assets/img/papers/dido.gif' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-<font size=5>DIDO: Deep Inertial Quadrotor Dynamical Odometry</font>
+<h3 class="paper-title">DIDO: Deep Inertial Quadrotor Dynamical Odometry</h3>
 
-**AUTHORS** Kunyi Zhang, Chenxing Jiang, **<u>Jinghang Li</u>**, et al.
+<p class="paper-authors">Kunyi Zhang, Chenxing Jiang, <strong>Jinghang Li</strong>, et al.</p>
 
-**IN PROCEEDINGS** IEEE Robotics and Automation Letters with IROS 2022 [under review]
+<p class="paper-venue">IEEE Robotics and Automation Letters with IROS 2022 (under review)</p>
   
-📖[Preprint](https://arxiv.org/pdf/2203.03149)&nbsp;&nbsp;&nbsp;📺[Video (bilibili)](https://www.bilibili.com/video/BV1dU4y1Z773) 
+<p class="paper-links"><a href="https://arxiv.org/pdf/2203.03149">PDF</a> | <a href="https://www.bilibili.com/video/BV1dU4y1Z773">Video</a></p>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><img src='images/2022_lzr_TIE.jpg' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><img src='assets/img/papers/driver-braking.jpg' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-<font size=5>Personalized Driver Braking Behavior Modelling in the Car-following Scenario: An Importance Weight-based Transfer Learning Approach</font>
+<h3 class="paper-title">Personalized Driver Braking Behavior Modelling in the Car-following Scenario: An Importance Weight-based Transfer Learning Approach</h3>
 
-**AUTHORS** Zirui Li, Jianwei Gong, Chao Lu, **<u>Jinghang Li</u>**.
+<p class="paper-authors">Zirui Li, Jianwei Gong, Chao Lu, <strong>Jinghang Li</strong>.</p>
 
-**IN PROCEEDINGS** IEEE Transactions on Industrial Electronics, 2022
+<p class="paper-venue">IEEE Transactions on Industrial Electronics, 2022</p>
   
-📖[Paper](https://ieeexplore.ieee.org/abstract/document/9700778)
+<p class="paper-links"><a href="https://ieeexplore.ieee.org/abstract/document/9700778">PDF</a></p>
 </div>
 </div>
 
-<hr class="uk-divider-small">
-
-### 2021
-
-<div class='paper-box'><div class='paper-box-image'><img src='images/2021_ljh_tvt.gif' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><img src='assets/img/papers/driver-risk-graph.gif' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-<font size=5>Driver-Specific Risk Recognition in Interactive Driving Scenarios using Graph Representation</font>
+<h3 class="paper-title">Driver-Specific Risk Recognition in Interactive Driving Scenarios using Graph Representation</h3>
 
-**AUTHORS** **<u>Jinghang Li</u>**, Chao Lu, Penghui Li, Zheyu Zhang, Cheng Gong, Jianwei Gong.
+<p class="paper-authors"><strong>Jinghang Li</strong>, Chao Lu, Penghui Li, Zheyu Zhang, Cheng Gong, Jianwei Gong.</p>
 
-**IN PROCEEDINGS** IEEE Transactions on Vehicular Technology, 2021 [under review]
+<p class="paper-venue">IEEE Transactions on Vehicular Technology, 2021 (under review)</p>
   
-📖[Preprint](https://arxiv.org/abs/2111.06342)
+<p class="paper-links"><a href="https://arxiv.org/abs/2111.06342">PDF</a></p>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><img src='images/ped.gif' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><img src='assets/img/papers/pedestrian-risk.gif' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-<font size=5>Prediction of Pedestrian Spatiotemporal Risk Levels for Intelligent Vehicles: A Data-driven Approach</font>
+<h3 class="paper-title">Prediction of Pedestrian Spatiotemporal Risk Levels for Intelligent Vehicles: A Data-driven Approach</h3>
 
-**AUTHORS** Zheyu Zhang, Boyang Wang, Chao Lu, **<u>Jinghang Li</u>**, Cheng Gong, Jianwei Gong.
+<p class="paper-authors">Zheyu Zhang, Boyang Wang, Chao Lu, <strong>Jinghang Li</strong>, Cheng Gong, Jianwei Gong.</p>
 
-**IN PROCEEDINGS** Transportation Research Part C: Emerging Technologies, 2021 [under review]
+<p class="paper-venue">Transportation Research Part C: Emerging Technologies, 2021 (under review)</p>
   
-📖[Preprint](https://arxiv.org/abs/2111.03822)
+<p class="paper-links"><a href="https://arxiv.org/abs/2111.03822">PDF</a></p>
 
 </div>
 </div>
-
-<hr class="uk-divider-small">
-
-### 2020
 
 **CVPR, 2016** \| [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -114,3 +112,6 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+# 🗺️ Places I've Been
+<div id="places-map" class="places-map" data-places='{{ site.data.places | jsonify | escape }}'></div>
