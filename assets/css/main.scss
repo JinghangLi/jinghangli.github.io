@@ -306,6 +306,13 @@ html[data-lang="zh"] .lang-en {
     .news-right {
         margin-left: 0;
     }
+
+    .news-left {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+        word-break: break-word;
+    }
 }
 
 .pub-list {
