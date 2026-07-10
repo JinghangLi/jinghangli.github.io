@@ -8,8 +8,8 @@ main:
     title_zh: "新闻"
     url: "/#news"
 
-  - title_en: "Publications"
-    title_zh: "论文发表"
+  - title_en: "Publications and Projects"
+    title_zh: "论文与项目"
     url: "/#publications"
 
   - title_en: "Internships"

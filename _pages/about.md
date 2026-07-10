@@ -36,6 +36,21 @@ My recent work spans event-camera-based multimodal 3D perception, time-to-collis
 <div class="lang-en">
 <div class="news-list">
   <div class="news-item">
+    <div class="news-left"><strong>[2026/06/20]</strong> One paper accepted by <strong>ECCV 2026</strong>.</div>
+    <div class="news-dots"></div>
+    <div class="news-right">Co-author</div>
+  </div>
+  <div class="news-item">
+    <div class="news-left"><strong>[2026/03/20]</strong> One open-source project released.</div>
+    <div class="news-dots"></div>
+    <div class="news-right">Open Source</div>
+  </div>
+  <div class="news-item">
+    <div class="news-left"><strong>[2026/02/16]</strong> One paper accepted by <strong>T-RO</strong>.</div>
+    <div class="news-dots"></div>
+    <div class="news-right">Co-first Author</div>
+  </div>
+  <div class="news-item">
     <div class="news-left"><strong>[2025/06]</strong> One paper accepted by <strong>IEEE Robotics and Automation Letters (RA-L)</strong>.</div>
     <div class="news-dots"></div>
     <div class="news-right">One as First Author</div>
@@ -87,6 +102,21 @@ My recent work spans event-camera-based multimodal 3D perception, time-to-collis
 <div class="lang-zh">
 <div class="news-list">
   <div class="news-item">
+    <div class="news-left"><strong>[2026/06/20]</strong> 一篇论文被 <strong>ECCV 2026</strong> 接收。</div>
+    <div class="news-dots"></div>
+    <div class="news-right">合作作者</div>
+  </div>
+  <div class="news-item">
+    <div class="news-left"><strong>[2026/03/20]</strong> 一个开源项目发布。</div>
+    <div class="news-dots"></div>
+    <div class="news-right">开源项目</div>
+  </div>
+  <div class="news-item">
+    <div class="news-left"><strong>[2026/02/16]</strong> 一篇论文被 <strong>T-RO</strong> 接收。</div>
+    <div class="news-dots"></div>
+    <div class="news-right">共同第一作者</div>
+  </div>
+  <div class="news-item">
     <div class="news-left"><strong>[2025/06]</strong> 论文被 <strong>IEEE Robotics and Automation Letters (RA-L)</strong> 接收。</div>
     <div class="news-dots"></div>
     <div class="news-right">其中一篇一作</div>
@@ -135,9 +165,28 @@ My recent work spans event-camera-based multimodal 3D perception, time-to-collis
 </div>
 
 <span class='anchor' id='publications'></span>
-<h2 class="lang-en">Publications</h2>
-<h2 class="lang-zh">论文发表</h2>
+<h2 class="lang-en">Publications and Projects</h2>
+<h2 class="lang-zh">论文与项目</h2>
 <div class="pub-list">
+  <div class="pub-item">
+    <div class="pub-title">Guide, Think, Act: Interactive Spatially Steerable Vision-Language-Action</div>
+    <div class="pub-authors">Yiran Ling*, Qing Lian*, <strong>Jinghang Li</strong>, Qing Jiang, Tianming Zhang, Xiaoke Jiang, Chuanxiu Liu, Jie Liu, Lei Zhang.</div>
+    <div class="pub-venue">European Conference on Computer Vision (ECCV), 2026.</div>
+    <div class="pub-links"><a href="https://lianqing11.github.io/pdf/GTA-VLA-arxiv.pdf">PDF</a> | <a href="https://github.com/FutianLabs/GTA-VLA">Code</a> | <a href="https://signalispupupu.github.io/GTA-VLA_ProjPage/">Project</a></div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">VLAPilot: A Scheduling Agent for Vision-Language-Action Models</div>
+    <div class="pub-authors"><strong>Jinghang Li</strong>, Qing Lian (Project Lead), Yuhan Xi, Qing Jiang.</div>
+    <div class="pub-venue">Open-source Project, 2026.</div>
+    <div class="pub-description pub-authors">A general-purpose agent that pairs a VLM planner and verifier with any VLA backend, turning short-horizon skills into long-horizon robot missions via MCP.</div>
+    <div class="pub-links"><a href="https://jinghangli.github.io/vlapilot/">Project Page</a> | <a href="https://github.com/FutianLabs/VLAPilot">Code</a></div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">Toward Deep Representation Learning for Event-Enhanced Visual Autonomous Perception: the eAP Dataset</div>
+    <div class="pub-authors"><strong>Jinghang Li*</strong>, Shichao Li*, Qing Lian, Peiliang Li, Xiaozhi Chen, Yi Zhou.</div>
+    <div class="pub-venue">IEEE Transactions on Robotics (T-RO), 2026.</div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2603.16303">PDF</a> | <a href="https://nail-hnu.github.io/eAP_dataset/">Project</a></div>
+  </div>
   <div class="pub-item">
     <div class="pub-title">EvTTC: an event camera dataset for time-to-collision estimation</div>
     <div class="pub-authors">Kaizhen Sun*, <strong>Jinghang Li*</strong>, Kuan Dai, Bangyan Liao, Wei Xiong, Yi Zhou.</div>
